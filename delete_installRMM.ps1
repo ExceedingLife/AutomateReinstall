@@ -121,6 +121,6 @@ Write-Host "`n[5/5] Installing fresh Automate agent..." -ForegroundColor Yellow
 Start-Sleep -Seconds 5
 
 Invoke-Expression(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Braingears/PowerShell/master/Automate-Module.psm1')
-Install-Automate -Server 'river-run.hostedrmm.com' -LocationID 321 -Token '86eee99b04580eafb8596b8eaedc6130' -Transcript -Show -Force
+Install-Automate -Server 'company.hostedrmm.com' -LocationID 321 -Token 'token' -Transcript -Show -Force
 
 Write-Host "`n=== Automate Reinstall Complete ===" -ForegroundColor Cyan
