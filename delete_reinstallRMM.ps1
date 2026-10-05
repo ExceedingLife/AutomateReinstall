@@ -470,8 +470,6 @@ try {
         -Server $Server `
         -LocationID $LocationID `
         -Token $Token `
-        -Transcript `
-        -Show `
         -Force
 }
 catch {
